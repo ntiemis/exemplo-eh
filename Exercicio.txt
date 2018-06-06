@@ -1,0 +1,21 @@
+
+INSERIR um número de 1 à 2.000
+
+PERGUNTAR SE (maior) (igual) ou (menor) que o total:
+DIVIDIR o total por 2 para obter a RESPOSTA.
+
+PERGUNTAR SE (maior), (igual) ou (menor) ao 
+DIVIDIR 
+
+RESPONDER: RESULTADOA + resultado anterior dividido por dois.
+
+PERGUNTAR se é maior, igual ou menor que a metade das possibilidades calculadas.
+SE resultado for numero quebrado ARREDONDAR para o numero redondo mais próximo.
+
+ENQUANTO não acertar o número
+REPETIR:dividir as possibilidades restantes por dois
+
+QUANDO restar apenas uma possibilidade: ACERTOU
+
+
+
