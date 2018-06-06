@@ -1,0 +1,56 @@
+lembrar que o Palpite é 1.000
+Lembrar que o menor possível é 1
+Lembrar que o maior possível é 2.000
+Perguntar se o palpite está correto
+
+Enquanto (errar) REPETIR:
+
+SE a resposta foi 'maior':
+LEMBRAR que o menor número agora é o palpite.
+
+SENÃO:
+Lembrar que o maior número agora é o PALPITE.
+
+LEMBRAR que o palpite agora é o maior número do intervalo, menos o menor número do intervalo, MAIS um, dividido por dois, ARREDONDADO
+para cima e então somando no menor número do intervalo.
+Perguntar se o palpite está Correto.
+
+LEMBRAR que o palpite é 1000.
+Perguntar se o palpite está correto.
+
+ENQUANTO (palpite errado) REPETIR:
+SE a resposta for 'maior':
+LEMBRAR que o PALPITE é PALPITE *1.5
+
+SENÃO: 
+LEMBRAR que PALPITE ´pe PALPITE /2
+Perguntar se o palpite está correto.
+
+
+
+
+
+
+__________________
+
+INSERIR um número de 1 à 2.000
+
+PERGUNTAR SE (maior) (igual) ou (menor) que a metade do total:
+DIVIDIR o total por 2 para obter a RESPOSTA.
+
+PERGUNTAR SE (maior), (igual) ou (menor) à RESPOSTA
+REPETIR o total por 2 para obter a RESPOSTA.
+
+
+RESPONDER: RESULTADOA + resultado anterior dividido por dois.
+
+PERGUNTAR se é maior, igual ou menor que a metade das possibilidades calculadas.
+SE resultado for numero quebrado ARREDONDAR para o numero redondo mais próximo.
+
+ENQUANTO não acertar o número
+REPETIR:dividir as possibilidades restantes por dois
+
+QUANDO restar apenas uma possibilidade: ACERTOU
+
+
+
