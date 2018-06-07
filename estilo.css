@@ -1,3 +1,87 @@
-h1 {
-    color: red;
+body {
+    max-width: 600px;
+    margin: 60px auto 0px;
+    font-family: sans-serif;
+    line-height: 150%; 
+}
+
+h2 {
+    border-top: solid 5px lightgray;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 14px;
+    color:gray;
+    display: inline-block;
+    margin-left: 240px;
+}
+
+p {
+    color: gray;
+}
+
+[nome=segundo]{
+    font-weight: bold;
+    border: solid 3px gray;
+    margin: 10px 20px 10px;
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
+ol{
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+
+li{
+    background-color: gray;
+    border-radius:7px;
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:visited {
+    color: black;
+}
+
+li a:hover {
+    color: greenyellow;
+}
+
+.final {
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: auto 20px;
+}
+
+.final:nth-child(1){
+    background-color: rgb(15, 54, 15);
+}
+
+.final:nth-child(2){
+    background-color: rgb(35, 76, 35)
+}
+
+.final:nth-child(3){
+    background-color: rgb(55, 96, 55)
+}
+
+.final:nth-child(4){
+    background-color: rgb(75, 116, 75)
 }
