@@ -1,0 +1,42 @@
+Lista:
+AS : Uma carta com a letra 'A' desenhada.
+
+Cada monte é dividido em 10 posições; A,B,C,D,E,F,G,H,I,J.
+
+ENQUANTO tiverem cartas; REPETIR.
+Pegar uma carta do baralho
+
+SE a carta for AS colocar na posição A.
+SE a carta for 2, colocar na posição B.
+SE a carta for 3, colocar na posição C.
+SE a carta for 4, colocar na posição D.
+SE a carta for 5, colocar na posição E.
+SE a carta for 6, colocar na posição F.
+SE a carta for 7, colocar na posição G.
+SE a carta for 8, colocar na posição H.
+SE a carta for 9, colocar na posição I.
+SE NÃO, colocar na posição J.
+
+JUNTAR o baralho na seguinte ordem
+
+PEGAR o monte A.
+ENQUANTO for B, colocar acima do monte A,
+ENQUANTO for C, colocar acima do monte B,
+ENQUANTO for D, colocar acima do monte C,
+ENQUANTO for E, colocar acima do monte D,
+ENQUANTO for F, colocar acima do monte E,
+ENQUANTO for G, colocar acima do monte F,
+ENQUANTO for H, colocar acima do monte G,
+ENQUANTO for I, colocar acima do monte H,
+
+Parar.
+
+
+
+
+
+
+
+
+
+
